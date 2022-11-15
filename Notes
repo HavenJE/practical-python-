@@ -1,0 +1,25 @@
+To check if Python is installed:
+=> Python3 --version
+
+To open python interpreter mode:
+=> python3
+
+To quit the interpreter, do:
+=> quit()
+
+To create a python file, make the file extension as .py e.g. file.py
+
+A file with .py extension is called:
+
+- python script or
+- python program
+
+To convert a float into int e.g. 10.6
+amount = int(10.6)
+// 10
+
+To convert an int into a float
+amount = float(10)
+// 10.0
+
+A list in python takes the square brackets [ ] just the like the array in JS
