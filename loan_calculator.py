@@ -18,14 +18,20 @@ months = int(input("How many months do you want to see the results for?\n"))  # 
 # first, we calculate the monthly interest rate - divide 3% by 100, then divide again by 12 months 
 monthly_rate = apr/100/12
 
-# now let's calculate the first month interest + the amount of money we owe 
-interest_paid =  monthly_rate * money_owed
+for i in range(months):
+    # now let's calculate the first month interest + the amount of money we owe 
+    interest_paid =  monthly_rate * money_owed
 
-money_owed = interest_paid + money_owed
+    money_owed = interest_paid + money_owed
 
-# The money we still owe = money_owed - our monthly payment 
-money_owed = money_owed - payment
+    if (money_owed - payment < 0):
+        print("The last amount you own is:", money_owed)
+        print("You have paid what you owe in", i+1, "months")
+        break
 
-# let's print the result 
-print("A monthly payment of", payment, "of which", interest_paid, "was interest...", end=' ')
-print("Now you owe", money_owed)
+    # The money we still owe = money_owed - our monthly payment 
+    money_owed = money_owed - payment
+
+    # let's print the result 
+    print("A monthly payment of", payment, "of which", interest_paid, "was interest...", end=' ')
+    print("Now you owe", money_owed)
