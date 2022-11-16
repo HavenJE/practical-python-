@@ -24,6 +24,7 @@ for i in range(months):
 
     money_owed = interest_paid + money_owed
 
+    # if you happened to have paid all amount you owe shorter than the # of months you chose, 
     if (money_owed - payment < 0):
         print("The last amount you own is:", money_owed)
         print("You have paid what you owe in", i+1, "months")

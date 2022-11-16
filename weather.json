@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 153.0281,
+        "lat": -27.4679
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 26.62,
+        "feels_like": 26.62,
+        "temp_min": 24.99,
+        "temp_max": 28.53,
+        "pressure": 1009,
+        "humidity": 45
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.6,
+        "deg": 250
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1668555003,
+    "sys": {
+        "type": 2,
+        "id": 2005393,
+        "country": "AU",
+        "sunrise": 1668538099,
+        "sunset": 1668586621
+    },
+    "timezone": 36000,
+    "id": 2174003,
+    "name": "Brisbane",
+    "cod": 200
+}

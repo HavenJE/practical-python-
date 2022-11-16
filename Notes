@@ -23,3 +23,9 @@ amount = float(10)
 // 10.0
 
 A list in python takes the square brackets [ ] just the like the array in JS
+
+To check if pip is installed with python by:
+pip3 --version 
+
+To install the Requests package 
+=> pip3 requests 
